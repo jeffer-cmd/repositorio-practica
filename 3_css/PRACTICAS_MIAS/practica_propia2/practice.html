@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulos centrar">Esta es una practica propia</h1>
+    </header>
+
+    <nav class="centrar">
+        <button class="w-200 h-200">Inicio</button>
+        <button class="w-200 h-200">Sobre mi</button>
+        <button class="w-200 h-200">Contacto</button>
+    </nav>
+
+    <main>
+        <h2 class="titulos centrar">Aqui empieza la tabla</h2>
+
+        <table border="1">
+            <caption>Mi tabla de prueba</caption>
+            <thead>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jeff</td>
+                    <td>Ruiz</td>
+                    <td>13 años</td>
+                </tr>
+
+                <tr>
+                    <td>Mari</td>
+                    <td colspan="2">sin informacion</td>
+                </tr>
+
+                <tr>
+                    <td>Marisol</td>
+                    <td rowspan="2">sin informacion</td>
+                    <td>49 años</td>
+                </tr>
+
+                <tr>
+                    <td>Jose</td>
+                    <td>50 años</td>
+
+                </tr>
+
+
+            </tbody>
+
+        </table>
+
+        <hr>
+        <hr>
+
+        <form action="envio.html" method="GET">
+            <label for="correo">Correo:</label>
+            <input type="email" required id="correo" placeholder="Digite su correo" minlength="10" class="bloque">
+            <label for="password">Contraseña:</label>
+            <input type="password" required id="password" placeholder="Digite su contraseña" class="bloque">
+
+            <label for="color1">Rojo</label>
+            <input type="radio"  id="color1" value="rojo" name="colores">
+            <label for="color2">Verde</label>
+            <input type="radio"  id="color2" value="verde" name="colores" >
+
+            <label for="1" class="bloque    ">Descripcion:</label>
+            <textarea name="texto" id="1" cols="30" rows="10" placeholder="da una descripcion aqui" class="bloque"></textarea>
+
+            <button type="reset">Limpiar</button>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <h2 class="titulos centrar">Ir a la otra pagina del envio</h2>
+        <a href="envio.html">
+            <button class="bloque">ir alla :)</button></a>
+
+        <a href="" class="tarjeta"> hola</a>
+        <a href="" class="tarjeta">bien</a>
+
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+.color_logo{
+    background-color: rgba(40, 36, 91, 0.597);
+
+}
+
+.texto_blanco{
+    color: white;
+}
+
+.fuente{
+    font-family: sans-serif;
+    size: 30px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.izquierda{
+    text-align: left;
+}
+
+body{
+    width: 500px;
+    text-align: center;
+    margin: 0;
+    margin: auto;
+}
+
+.ancho{
+    width: 500px;
+}
+
+.ancho2{
+    width: 0px;
+}

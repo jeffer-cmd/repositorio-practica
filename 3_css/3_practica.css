@@ -1,0 +1,94 @@
+/* primary:#264653
+secondary: #2a9d8f
+danger: #e76f51
+info: #e9c46a */
+
+
+html{
+box-sizing: border-box;    
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit; /*esto es para que todos los elementos tengan box-sizing border box*/
+}
+
+body{
+    font-family:"Zalando Sans Expanded", sans-serif;
+}
+
+.container{
+    max-width: 600px;
+    width: 95%;
+    /* background-color: aqua; */
+    margin: auto;
+
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.logo{
+    background-color: #2a9d8f;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 1em;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 0 0.1em;    
+    padding: 0.5em;
+    border-radius: 0.5em;
+    
+
+
+}
+
+.btn-primary{
+    color: white;
+    background-color:#264653 ;
+}
+
+.btn-secondary{
+    color: white;
+    background-color:#2a9d8f ;
+}
+
+.btn-danger{
+    color: black;
+    background-color:#e76f51 ;
+}
+
+.btn-info{
+    color: black;
+    background-color:#e9c46a ;
+}
+
+.card{
+    width: 300px;
+    background-color:#264653 ;
+    overflow: hidden;
+    border-radius: 0.5em;
+    color: white;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-body h5{
+    font-size: 1.5em;
+    margin: 1em 0;
+    font-weight: 700;
+}
+
+.card-body p{
+    font-weight: 300;
+}

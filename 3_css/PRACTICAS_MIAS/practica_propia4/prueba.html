@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prueba.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container mt-2" >
+        <a href="" class="logo"> Mi sitio de practica de html y css</a>
+    </header>
+
+    <nav class="container mt-2 centro">
+        <a href="#" class="btn">Texto</a>
+        <a href="#" class="btn">Listas</a>
+        <a href="#" class="btn">Tabla</a>
+        <a href="#formulario" class="btn">Formulario</a>
+    </nav>
+
+    <main class="container mt-2">
+        <section> <!--Texto-->
+            <article>
+                <h2>Formato de texto</h2>
+                <p>Este es un texto en <strong>negrita</strong> un texto en <i>cursiva</i> y un texto <span>resaltado</span></p>
+                <div class="contenedor">
+                    <img src="https://fastly.picsum.photos/id/236/800/1000.jpg?hmac=AOcJrGb6IWUcN13j_NA6zpWZDX-TOrGABwOtJ9t3tRw" alt="" class="img">
+                    <p>Este parrafo tiene una altura fija y el overflow aplicado para practicar el desbordamiento, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, maxime doloremque earum culpa quia quis modi excepturi vel, expedita doloribus iste at fugit eligendi in. Consequatur placeat tempore ullam incidunt, impedit ad necessitatibus est consequuntur quisquam culpa voluptatibus atque neque?</p>
+                </div>
+            </article>
+        </section>
+
+        <hr>
+        <section>
+            <h2>Listas</h2>
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>Html</li>
+                <li>css</li>
+                <li>Java</li>
+            </ul>
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>Estructura</li>
+                <li>Estilos</li>
+                <li>Iterar</li>
+            </ol>
+        </section>
+
+        <hr>
+        <section>
+            <h2 class="centro">Tabla de usuarios</h2>
+
+            <table border="1" class="tabla">
+                <caption>Listado de usuarios</caption>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Contacto</th>
+                    <th>Telefono</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Ana</td>
+                        <td>ana@gmail</td>
+                        <td>3000021432</td>
+                    </tr>
+
+                    <tr>
+                        <td>Juan</td>
+                        <td>juan@gmail</td>
+                        <td>3000021432</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mari</td>
+                        <td colspan="2">sin informacion</td>
+                    
+                    </tr>
+
+                    <tr>
+                        <td>Jeff</td>
+                        <td rowspan="2">sin informacion</td>
+                        <td>3000021432</td>
+                    </tr>
+
+                    <tr>
+                        <td>Jose</td>
+                        <td>3000021432</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+        <section>
+            <h2 id="formulario" class="centro">Formulario</h2>
+
+            <form action="enviando.html" method="GET">
+                <div class="linea">
+                    <label for="correo" class="bloque" >Correo: </label>
+                    <input type="email" class="bloque lado" placeholder="Ingrese su correo" required minlength="8" id="correo" name="correo" >
+                </div>
+
+                <br>
+
+                <div class="linea">
+                    <label for="password" class="bloque">Contraseña: </label>
+                    <input type="password"  class="bloque lado" placeholder="Ingrese su contraseña" required  id="password" name="password" class="linea">
+                </div>
+
+                <br>
+                <br>
+
+                <label for="genero">Genero: </label>
+                <label for="1">masculino</label>
+                <input type="radio" value="masculino" name="generos" id="1">
+
+                <label for="2">femenino</label>
+                <input type="radio" value="femenino" name="generos" id="2">
+                <br>
+                <br>
+
+                <label for="3" class="linea">Descripcion:</label>
+                <textarea class="linea centrado" id="3" cols="30" rows="10" placeholder="Da una breve descripcion"></textarea>
+                <input type="date">
+                <br>
+                <br>
+
+                <a href=""> <button type="submit">Enviar</button></a>
+                <button type="reset" class="botoni">Limpiar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="container mt-2">
+        <p class="logo">2026 en practica</p>
+    </footer>
+</body>
+</html>

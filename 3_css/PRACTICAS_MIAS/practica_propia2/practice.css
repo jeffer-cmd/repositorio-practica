@@ -1,0 +1,41 @@
+.titulos{
+    font-size: 20px;
+    color: red;
+    background-color: black;
+    
+    
+}
+
+.centrar{
+    text-align: center;
+}
+
+.bloque{
+    display: block;
+}
+
+.w-200{
+    width: 200px;
+}
+
+.h-200{
+    height: 200px;
+}
+
+.borde{
+    border: 2px solid red;
+    
+}
+
+.tarjeta{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 3px solid green;
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+    
+
+}

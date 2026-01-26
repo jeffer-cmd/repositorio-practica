@@ -1,0 +1,62 @@
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+
+.border{
+    border:  2px solid black; ;
+}
+
+/* .h-700{
+    height: 700px;
+} */
+
+.item{
+    text-align: center;
+    background-color: peru;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    /* width: 200px; */
+}
+
+/* .h-100{
+    height: 100px;
+    padding-top: 50px;
+} */
+
+.flex-container{
+    display: flex;
+    flex-direction: row; /*el row es el valor por defecto que pone*/
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /*align-items: baseline; /*stretch es el valor por defecto */
+    /*align-content:space-between ;*/
+}
+
+.order-1{
+    order: 1; /*el orden por defecto siempre empieza por 0, y si hay 2 elementos con el mismo orden los ordena por el primero que vaya*/
+}
+
+.order-2{
+    order: 2;
+}
+
+.flex-grow-1{
+    flex-grow: 1; /*calcula el ancho del elemento sin necesidad de ponerle with distribuyendo su espacio a traves del contenedor, disminuyendo y creciendo de forma automatica*/
+}
+
+.flex-grow-2{
+    flex-grow: 2;
+}
+
+.flex-shrink{
+    width: 300px; 
+    flex-shrink: 0;/*hace que el item tenga como minimo el ancho que le doy como 300px, puede aumentar si, pero al disminuir, siempre tiene 300,si pongo el 0, si aumento el valor la logica es: tu tamaño ideal son 300px, pero como el contenedor es pequeño y tienes un factor de encogimiento de 2, te voy a quitar muchos píxeles hasta que todo el mundo quepa*/
+}
+
+.flex-basis{
+    flex-basis: 50%; /*Define el tamaño inicial del ítem en el eje principal,antes de que Flexbox reparta espacio o lo quite.Es el punto de partida del cálculo. flex-basis tiene prioridad sobre width*/
+}

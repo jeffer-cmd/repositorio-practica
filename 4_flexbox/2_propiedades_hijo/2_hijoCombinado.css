@@ -1,0 +1,44 @@
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+
+.border{
+    border:  2px solid black; ;
+}
+
+/* .h-700{
+    height: 700px;
+} */
+
+.item{
+    text-align: center;
+    background-color: peru;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    /* width: 200px; */
+}
+
+.h-200{
+    height: 200px;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end
+    
+    
+}
+
+.aling-self{
+    align-self: flex-start; /*ubica el elemento donde yo quiera sin importar la ubicacion del elemento padre que le dio a los otros*/
+}
+
+.flex{
+    flex:1 0 100px; /*flex resume grow,shrink y basis*/
+}  
