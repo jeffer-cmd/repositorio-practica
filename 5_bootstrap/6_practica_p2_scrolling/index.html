@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css" integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+        <title>landing pages</title>
+    </head>
+    <!-- para usar scrolling se debe poner el body asi: y el nav debe tener el mismo id que el body -->
+    <body style="position: relative;" data-bs-spy="scroll" data-bs-target="#navId" tabindex="0">
+
+        <nav class="navbar navbar-expand-lg bg-dark border-body fixed-top " id="navId" data-bs-theme="dark">
+            <div class="container">
+                <span class="text-white align-middle">
+                    <i class="bi bi-apple"></i>
+                </span>
+                <a class="navbar-brand" href="#">Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                        <li class="nav-item me-auto">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item me-auto">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item me-auto ">
+                        <a class="nav-link " href="#comentarios" >Comentarios</a>
+                        </li>
+                        <li class="nav-item me-auto">
+                        <a class="nav-link" href="#suscribete">suscribete</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        
+        
+        <section id="inicio">
+            
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="/5_bootstrap/6_practica_p2/imagen/img1 580-1000x400.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="/5_bootstrap/6_practica_p2/imagen/img2 1000x400.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="/5_bootstrap/6_practica_p2/imagen/img3 1000x400.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        
+        </section>
+
+        
+            <main>
+                <section id="servicios" class=" bg-dark text-white ">
+                    <span class="d-block text-center text-white fs-3 py-3">
+                        <i class="bi bi-box2-fill "></i>
+                        <i class="bi bi-box2-fill  text-primary"></i>
+                        <i class="bi bi-box2-fill"></i>
+                    </span>
+    
+                    <h2 class="h1 display4 text-center mt-3 text-white mb-5">Servicios</h2>
+                    <div class="container">
+    
+                        <div class="row">
+                            <div class="col-12 col-md-4  ">
+                                <h2>Lorem ipsum dolor sit amet.</h2>
+                                <hr>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam labore voluptatem eum, deleniti, perspiciatis, corporis suscipit aut ab omnis reprehenderit sequi! Quae pariatur quo nostrum expedita ipsa, numquam excepturi.
+                                <br>
+        
+                                <button class="btn btn-outline-light my-3 text-white">Suscribete</button>
+                            </div>
+        
+                            <div class="col-12 col-md-8">
+                                <img src="/5_bootstrap/6_practica_p2/imagen/img4 1000x400.jpg" alt="" class="img-fluid">
+                            </div>
+    
+                            <div class="col-12 my-5">
+                                <p class="fs-3 lead ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quo nisi maxime rerum consequuntur obcaecati, laboriosam repudiandae deleniti vitae quam reprehenderit excepturi itaque perspiciatis delectus! Consequuntur dolorem corrupti iste praesentium nemo distinctio asperiores eveniet voluptate, vitae, sequi rerum officia iusto in reprehenderit molestias sapiente illo? Sit nam ad perspiciatis fuga.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="comentarios">
+                    <div class="container">
+
+                        <span class="d-block text-center fs-2 my-4">
+                            <i class="bi bi-calendar2-date"></i>
+                            <i class="bi bi-box2-fill  text-primary"></i>
+                            <i class="bi bi-calendar2-date"></i>
+                        </span>
+    
+                        <h2 class="h1 display4 text-center mt-3  mb-5">Comentarios</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, architecto voluptatum. Aperiam, deserunt. Nisi rem, eaque voluptates incidunt magnam ex. Ea expedita sed provident perferendis nam libero ut inventore tenetur earum laboriosam autem esse veritatis pariatur, quisquam quae animi consequuntur!</p>
+                        
+                        
+                            <div class="row justify-content-center">
+                                <div class="col-12 mb-3 col-md-4">
+                                    <img src="/5_bootstrap/6_practica_p2/imagen/img5-400x800.jpg" alt="" class="img-fluid">
+                                </div>
+    
+                                <div class="col-12 col-md-8">
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Producto1
+                                            </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Producto2
+                                            </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Producto3
+                                            </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </section>
+
+                <section id="suscribete" class="bg-secondary text-white">
+                    <div class="container">
+
+                        <span class="d-block text-center fs-2 py-4 ">
+                            <i class="bi bi-cart4"></i>
+                            <i class="bi bi-cart4"></i>
+                            <i class="bi bi-cart4"></i>
+                        </span>
+    
+                        <h2 class="h1 display4 text-center mt-3  mb-5">Suscribete</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, architecto voluptatum. Aperiam, deserunt. Nisi rem, eaque voluptates incidunt magnam ex. Ea expedita sed provident perferendis nam libero ut inventore tenetur earum laboriosam autem esse veritatis pariatur, quisquam quae animi consequuntur!</p>
+
+                        <div class="row my-5">
+                            <div class="col-12 col-md-4 my-3">
+                                
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <h2 class="card-title">$100</h2>
+                                        <ul class="list-group list-group-flush text-end">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+
+                                        <button class="btn btn-dark text-white my-3" data-bs-toggle="modal" data-bs-target="#modal1">Pagar</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md-4 my-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <h2 class="card-title">$100</h2>
+                                        <ul class="list-group list-group-flush text-end">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+
+                                        <button class="btn btn-dark text-white my-3" data-bs-toggle="modal" data-bs-target="#modal2">Pagar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 my-3">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <h2 class="card-title">$100</h2>
+                                        <ul class="list-group list-group-flush text-end">
+                                            <li class="list-group-item">An item</li>
+                                            <li class="list-group-item">A second item</li>
+                                            <li class="list-group-item">A third item</li>
+                                        </ul>
+
+                                        <button class="btn btn-dark text-white my-3" data-bs-toggle="modal" data-bs-target="#modal3">Pagar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <footer class="bg-dark text-white p-5 text-center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reiciendis provident doloremque sunt doloribus nesciunt quod dignissimos deleniti corporis perferendis facilis repellendus quibusdam, debitis distinctio aspernatur saepe eum aperiam delectus!</p>
+            </footer>
+                </section>
+
+            
+            </main>
+
+
+            <!-- modal -->
+            <div class="modal fade" id="modal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal 3</h1>
+                            <button type="button" class="btn-close me-5 p-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe ad accusantium. Obcaecati laborum sit optio voluptates similique, laboriosam atque facere, necessitatibus expedita consectetur amet odio neque. Enim, culpa sed officiis commodi libero ex adipisci accusantium, mollitia eligendi atque ullam?</p>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal 2</h1>
+                            <button type="button" class="btn-close me-5 p-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe ad accusantium. Obcaecati laborum sit optio voluptates similique, laboriosam atque facere, necessitatibus expedita consectetur amet odio neque. Enim, culpa sed officiis commodi libero ex adipisci accusantium, mollitia eligendi atque ullam?</p>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="modal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal 1</h1>
+                            <button type="button" class="btn-close me-5 p-0" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe ad accusantium. Obcaecati laborum sit optio voluptates similique, laboriosam atque facere, necessitatibus expedita consectetur amet odio neque. Enim, culpa sed officiis commodi libero ex adipisci accusantium, mollitia eligendi atque ullam?</p>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+
+    </body>
+</html>

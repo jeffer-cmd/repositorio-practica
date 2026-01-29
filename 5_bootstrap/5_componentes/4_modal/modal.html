@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+    <head>
+<!-- se pone el starter template que bootstrap trae por defecto y esta en starter template, ahorra poner el html -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css" integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+
+        <title>template</title>
+    </head>
+    <body>
+
+    <div class="container">
+            <!-- modal normal -->
+            <!-- Button trigger modal, es el boton que va con el modal para que funcione -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Ventana emergente
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Titulo</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo unde exercitationem ut ea iure consequatur quasi repellendus eveniet! Sequi praesentium aut deleniti in dicta eius dignissimos est unde quam ullam libero blanditiis suscipit totam, repudiandae dolorem, veniam similique magnam ex animi tenetur dolor! Fugiat similique nesciunt consectetur dolores optio nobis?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        
+        <!-- Modal estatico -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Launch static backdrop modal
+        </button>
+
+        
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, aliquid obcaecati facilis, delectus nam reiciendis iusto incidunt ipsa tenetur autem magni vel doloribus exercitationem nostrum blanditiis, quisquam iure nesciunt sint!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Modal centrado verticalmente (asi no aparezca en bootstrap, siempre debe llevar el boton) lo unico que cambia aqui es que donde diga modal dialog, se agrega la clase modal-dialog-centered -->
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vertical">
+        Launch static backdrop modal
+        </button>
+
+        
+        <div class="modal fade" id="vertical" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="vertical aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="vertical">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, aliquid obcaecati facilis, delectus nam reiciendis iusto incidunt ipsa tenetur autem magni vel doloribus exercitationem nostrum blanditiis, quisquam iure nesciunt sint!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    </div>    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>
