@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');//esta es la fuente que yo importe
+
+
+//Para que funcionen siempre estos cambios, lo primero a hacer es compilar sass
+// Este archivo es para personalizar las clases de bootstrap, para personalizar es necesario que la variable o todos los cambios nuevos esten por encima del import y cuando el la extension de sass compile y haga los archivos, no se debe cambiar de lugar porque si no, no sirve la personalizacion aqui, y esos archivos nunca se modifican, la modificacion es aqui, el archivo de la info se llama variables scss, y se coje la variable con el $variable: propiedad, la ruta del archivo es: node-modules,bootstrap,dist, scss, variables.scss.... (las variables que digan default en el archivo de scss son las que se pueden modificar)
+
+
+$danger: blue;
+$font-family-base:"Bungee", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//cuando se modifican las variables de bootstrap, van arriba del import, pero cuando solo es asignar a una etiqueta un color por ej sin modificar variables, entonces eso se pone abajo
+
+p{
+    color:$gray-700
+}
+
+//al momento de subir el proyecto a un hosting, se sube el html, el js, el css y el package.js

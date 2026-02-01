@@ -1,0 +1,29 @@
+
+$danger: peru;
+
+$enable-negative-margins: true; //el margen negativo hay que activarlo en este archivo y luego en el html se usa la clase mt-n5 por ej, donde la n indica que es negativo
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.nav-form-control{
+    background-color: $danger;
+    border-color: $light;
+}
+
+header{
+    background-image: url("img/773-1000x500.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+@include media-breakpoint-up(md) { 
+    header{
+    background-image: url("img/773-1000x500.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+}
